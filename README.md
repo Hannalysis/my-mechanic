@@ -1,63 +1,65 @@
-# Pinecone Assistants Sample App
+<h1 align = "center">My Mechanic</h1>
 
-This sample app connects to an existing Pinecone Assistant to expose a public or private chat interface. Users can use the chat interace to ask your assistant questions, and it will use any documents you have uploaded to it to answer the questions. 
+<p align = "center"><b>Overview</b>: An AI answerbot for ordinary car owners, powered by Pinecone.</p>
 
-### Built With
+<p align = "center">
+  <img align = "center" src="/readme-images/my-mechanic-screenshot.jpeg" alt="AI-chatbot-interface-with-garage-backdrop">
+</p>
 
-- Pinecone Assistant
-- Next.js + Python + Tailwind 
-- Node version 20 or higher
+------------
 
----
-## Running the Sample App
+## Installation
 
-### Want to move fast?
-
-Use `npx create-pinecone-app` to adopt this project quickly.
-This will clone the project, and prompt you for necessary secrets. Make sure you've created your assistant and uploaded your files in the Pinecone console at this point.
-
-### Create a Pinecone API key
-**Grab an API key [here](https://app.pinecone.io)**
-
-Before you start, this application requires you to build Pinecone Assistant in the Console first. You'll also need to upload files to this assistant. Any set of PDF files will do!
-
-### Environment Variables
-
-This app uses two optional environment variables to control certain features:
-
-1. `SHOW_ASSISTANT_FILES`: Set to 'true' to display the files uploaded to your Pinecone Assistant. Default is 'false'.
-2. `SHOW_CITATIONS`: Set to 'true' to display citations and references in the assistant's responses. Default is 'true'.
-
-You can set these variables in your `.env.local` file:
-
-```
-SHOW_ASSISTANT_FILES=true
-SHOW_CITATIONS=true
-```
-
-### Start the project
-
-#### Dependency Installation
+To run this via the repo - Inside your VScode terminal, enter the following:
 
 ```bash
-cd pinecone-assistant && npm install 
+    npm install i 
+    npm run dev
 ```
-Then, start the development server: 
+... and with the appropriate API keys tucked safely inside your local .env file, open the local http link provided. 
 
-```bash
-npm run dev
-```
+------------
 
-Visit http://localhost:3000 to access the chat interface.
+## My Brief  
 
-## Project structure
+<i>At School of Code, our team was challenged to implement Pinecone's AI RAG chatbot application into anything we wanted to build within the time frame of 2 days.</i>
 
-![Pinecone Assistant Sample App Architecture](./public/pinecone-assistant-architecture.png)
+## Documentation 
 
----
-## Troubleshooting
+<h3><u>The Problem Statement</u></h3>  
 
-Experiencing any issues with the sample app?
-Submit an issue, create a PR, or post in our community forum!
+<i>"I’ve had my Seat Ibiza for 4 years and I still don’t know how to turn the fog lights on."</i>
 
----
+<h3><u>The Solution</u></h3>  
+
+<p>A chatbot to provide accurate answers directly from specific car manuals.</p> 
+
+
+----------------------------------
+
+<h3><u>Tech Stack including:</u></h3>  
+
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=nextjs,react,ts,html,tailwind,vscode,figma&perline=8" />
+  </a>
+</p>
+
+<h3><u>MVP</u> - Completed: 2025/02/27</h3>
+
+- Seat Manual utilised with our pinecone AI assistant application
+- Appropriate re-styling to suit our theme
+- Static Pinecone Index
+- Non functional Hyundai UI button to show car manual toggle intent
+
+## Future Milestones
+
+<h3><u>MS1</u></h3>
+
+- Appropriate functionality to seamlessly swap or filter the Pinecone Index when switching between vehicle models
+
+## Authors
+
+Created by Team Lash'n
+<i></br><b>aka: </b>@Lizwade, @Al-lamb, @Sumeyacodes, @Hannalysis & @Newmaldenite</i>
+
